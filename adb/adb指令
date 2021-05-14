@@ -1,0 +1,18 @@
+# adb(Android Debug Bridge)指令是開發 Android 時常用到的工具，使用 adb 指令可對 android 裝置進行除錯、測試、檔案處理、安裝/移除 apk 等的操作，
+# appium 要先打開 (命令列打 appium )
+
+# 查詢裝置
+$ adb devices
+
+# 列出裝置目錄
+$ adb shell ls
+
+# 進入 android 的 shell
+$ adb shell
+
+# 查看adb版本
+$ adb version
+
+# 重啟 Server
+$ adb kill-server
+$ adb start-server
